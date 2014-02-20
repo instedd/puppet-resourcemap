@@ -1,0 +1,12 @@
+name    'instedd-resourcemap'
+version '0.1.0'
+source 'https://github.com/instedd/puppet-resourcemap.git'
+author 'Juan Wajnerman'
+license 'Apache License, Version 2.0'
+summary 'InSTEDD ResourceMap'
+description 'UNKNOWN'
+project_page 'UNKNOWN'
+
+dependency 'puppetlabs/mysql'
+dependency 'elasticsearch/elasticsearch'
+dependency 'jdowning/rbenv'
